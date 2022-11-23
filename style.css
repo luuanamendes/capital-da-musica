@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    border-style: none;
+}
+
+#id1{
+    position: absolute;
+    top: 0px;
+    z-index: 2;
+}
+
+.part1-caixa{
+    background-color: #F2B705;
+    height: 100px;
+}
+
+.part1-caixa2{
+    width: 940px;
+    height: 100px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.p1-title{
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.p1-menu{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.p1-menu-item a{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+}
+
+
+
+
+
+#part2{
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+
+.part2-caixa{
+    background-image: url("assets/capa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+.p2-conteudo{
+    height: 450px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.p2-title{
+    color: #FFF;
+    font-size: 80px;
+}
+
+.p2-p{
+    color: #FFF;
+    font-size: 42px;
+}
+
+.p2-btn{
+    width: 180px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 8px;
+    color: #997300;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #FFF7E0;
+}
+
+
+
+
+
+#part3{
+    position: relative;
+    top: -40px;
+    z-index: 4;
+}
+
+.part3-caixa{
+    margin: 0 auto;
+    width: 940px;
+    background-color: #FFF;
+    box-shadow: -6px 0px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 8px 8px 8px 8px;
+}
+
+.p3{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    padding: 50px 80px;
+    font-size: 18px;
+    line-height: 1.8;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+
+
+#part4{
+    position: relative;
+    top: -60px;
+    z-index: 1;
+}
+
+.part4-caixa{
+    background-color: #F2B705;
+    height: 100px;
+}
+
+.p4-p{
+    color: #FFF;
+    font-size: 14px;padding-top: 50px;
+    text-align: center;
+}
+
+.p4-a{
+    color: #FFF;
+    text-decoration: underline;
+}
