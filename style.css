@@ -7,6 +7,9 @@
     border-style: none;
 }
 
+
+/*cabeçalho*/
+
 #id1{
     position: absolute;
     top: 0px;
@@ -36,7 +39,7 @@
 }
 
 .p1-menu{
-    margin-top: 15px;
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -49,10 +52,39 @@
     font-size: 18px;
 }
 
+.p1-menu-item a:hover{
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+    font-size: 18px;
+    text-decoration: underline;
+}
+
+/*rodapé*/
+
+#part4{
+    position: relative;
+    top: 0px;
+    z-index: 1;
+}
+
+.part4-caixa{
+    background-color: #F2B705;
+    height: 100px;
+}
+
+.p4-p{
+    color: #FFF;
+    font-size: 14px;padding-top: 50px;
+    text-align: center;
+}
+
+.p4-a{
+    color: #FFF;
+    text-decoration: underline;
+}
 
 
-
-
+/*pagina home*/
 #part2{
     position: relative;
     top: 0px;
@@ -95,8 +127,18 @@
     background-color: #FFF7E0;
 }
 
-
-
+.p2-btn:hover{
+    width: 180px;
+    height: 40px;
+    margin-top: 50px;
+    border-radius: 8px;
+    color: #997300;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #ffe28b;
+    transition: 0.5s;
+    cursor: pointer;
+}
 
 
 #part3{
@@ -121,30 +163,10 @@
     font-size: 18px;
     line-height: 1.8;
     font-family: 'Inter', sans-serif;
+    text-align: justify;
 }
 
 
 
 
 
-#part4{
-    position: relative;
-    top: -60px;
-    z-index: 1;
-}
-
-.part4-caixa{
-    background-color: #F2B705;
-    height: 100px;
-}
-
-.p4-p{
-    color: #FFF;
-    font-size: 14px;padding-top: 50px;
-    text-align: center;
-}
-
-.p4-a{
-    color: #FFF;
-    text-decoration: underline;
-}
