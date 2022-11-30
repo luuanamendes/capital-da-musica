@@ -10,18 +10,18 @@
 
 /*cabeçalho*/
 
-#id1{
+#id1 {
     position: absolute;
     top: 0px;
     z-index: 2;
 }
 
-.part1-caixa{
+.part1-caixa {
     background-color: #F2B705;
     height: 100px;
 }
 
-.part1-caixa2{
+.part1-caixa2 {
     width: 940px;
     height: 100px;
     align-items: center;
@@ -31,14 +31,14 @@
     justify-content: space-around;
 }
 
-.p1-title{
+.p1-title {
     color: #FFF;
     font-size: 40px;
     font-weight: 700;
     text-shadow: -4px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.p1-menu{
+.p1-menu {
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -46,13 +46,13 @@
     gap: 24px;
 }
 
-.p1-menu-item a{
+.p1-menu-item a {
     font-family: 'Inter', sans-serif;
     color: #FFF;
     font-size: 18px;
 }
 
-.p1-menu-item a:hover{
+.p1-menu-item a:hover {
     font-family: 'Inter', sans-serif;
     color: #FFF;
     font-size: 18px;
@@ -61,44 +61,45 @@
 
 /*rodapé*/
 
-#part4{
+#part4 {
     position: relative;
     top: 0px;
     z-index: 1;
 }
 
-.part4-caixa{
+.part4-caixa {
     background-color: #F2B705;
     height: 100px;
 }
 
-.p4-p{
+.p4-p {
     color: #FFF;
-    font-size: 14px;padding-top: 50px;
+    font-size: 14px;
+    padding-top: 50px;
     text-align: center;
 }
 
-.p4-a{
+.p4-a {
     color: #FFF;
     text-decoration: underline;
 }
 
 
 /*pagina home*/
-#part2{
+#part2 {
     position: relative;
     top: 0px;
     z-index: 1;
 }
 
-.part2-caixa{
+.part2-caixa {
     background-image: url("assets/capa.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
 }
 
-.p2-conteudo{
+.p2-conteudo {
     height: 450px;
     justify-content: center;
     display: flex;
@@ -106,17 +107,17 @@
     align-items: center;
 }
 
-.p2-title{
+.p2-title {
     color: #FFF;
     font-size: 80px;
 }
 
-.p2-p{
+.p2-p {
     color: #FFF;
     font-size: 42px;
 }
 
-.p2-btn{
+.p2-btn {
     width: 180px;
     height: 40px;
     margin-top: 50px;
@@ -127,7 +128,7 @@
     background-color: #FFF7E0;
 }
 
-.p2-btn:hover{
+.p2-btn:hover {
     width: 180px;
     height: 40px;
     margin-top: 50px;
@@ -141,24 +142,24 @@
 }
 
 
-#part3{
+#part3 {
     position: relative;
     top: -40px;
     z-index: 4;
 }
 
-.part3-caixa{
+.part3-caixa {
     margin: 0 auto;
     width: 940px;
     background-color: #FFF;
     box-shadow: -6px 0px 50px rgba(0, 0, 0, 0.1);
-    border-radius: 8px 8px 8px 8px;
+    border-radius: 8px;
 }
 
-.p3{
+.p3 {
     display: flex;
     flex-direction: column;
-    gap:30px;
+    gap: 30px;
     padding: 50px 80px;
     font-size: 18px;
     line-height: 1.8;
@@ -167,6 +168,78 @@
 }
 
 
+/*pagina conservatório*/
 
+.conteudo-conservatorio {
+    margin: 0 auto;
+    width: 940px;
+}
 
+.cons-p1-caixa {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px 0px;
+}
 
+.cons-p1-texto {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 70px;
+}
+
+.cons-p1-titulo {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+}
+
+.cons-p1-p {
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.cons-p1-img {
+    border-radius: 8px;
+}
+
+.cons-p2-caixa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.1em;
+}
+
+.cons-p2-caixa a {
+    color: #000;
+}
+
+.cons-p2-caixa a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.cons-p2-info {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+
+.cons-p2-img {
+    width: 280px;
+    border-radius: 8px;
+}
+
+.cons-p2-img:hover {
+    width: 280px;
+    border-radius: 8px;
+    scale: 1.02;
+    transition: 1s;
+    box-shadow: -6px 6px 12px rgba(0, 0, 0, 0.2);
+}
